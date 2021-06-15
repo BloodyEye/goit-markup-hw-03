@@ -10,36 +10,41 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"/>
     <link rel="stylesheet" href="./css/style.css"/>
+  
   </head>
   <body>
     <header class="header">
       <div class="container navbar">
-        <nav class="nav-area">
-          <a href="/" class="logo-web link">
+        <div class="header-block">
+
+          <nav class="nav-area">
+            <a href="/" class="logo-web link">
             <span>Web</span><span class="logo-st">Studio</span>
           </a>
           <ul class="site-nav list">
-            <li class="item">
+            <li class="nav-item">
               <a href="./index.html" class="link current">Студия</a>
             </li>
-            <li class="item">
+            <li class="nav-item">
               <a href="./portfolio.html" class="link">Портфолио</a>
             </li>
-            <li class="item">
+            <li class="nav-item">
               <a href="#contacts" class="link">Контакты</a>
             </li>
-        </nav>
-          </ul>
-          <ul class="mail-phone list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-            </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-            </li>
-          </ul>
-      </div>
+          </nav>
+        </ul>
+         <ul class="mail-phone list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
+         </ul>
+       </div>
+     </div>
     </header>
+    
     <main>
       <!-- main content-->
       <section class="hero">
@@ -52,28 +57,28 @@
       <section class="spc-work">
           <h2 class="hiding-heading">Особенности работы</h2>
           <ul class="description-list list">
-            <li>
+            <li class="desription-item">
               <h3 class="head-spc-work">Внимание к деталям</h3>
               <p class="description-spc-work">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="desription-item">
               <h3 class="head-spc-work">Пунктуальность</h3>
               <p class="description-spc-work">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="desription-item">
               <h3 class="head-spc-work">Планирование</h3>
               <p class="description-spc-work">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="desription-item">
               <h3 class="head-spc-work">Современные технологии</h3>
               <p class="description-spc-work">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -83,47 +88,57 @@
           </ul>
       </section>
       <!-- SERVICE-->
-      <section class="service">
+      <section class="service service-section">
 
           <h2 class="service-title">Чем мы занимаемся</h2>
           <ul class="service-list list">
-            <li>
+            <li class="service-item">
               <img src="./img/img-wd-1.jpg" alt="img-wd-1" width="370"/>
             </li>
-            <li>
+            <li class="service-item">
               <img src="./img/img-wd-2.jpg" alt="img-wd-2" width="370"/>
             </li>
-            <li>
+            <li class="service-item">
               <img src="./img/img-wd-3.jpg" alt="img-wd-3" width="370"/>
             </li>
           </ul>
 
       </section>
       <!-- SERVICE-->
-      <section class="section team">
+      <section class="section team-section">
+        <div class="container">
           <h2 class="service-title">Наша команда</h2>
           <ul class="list">
-            <li>
+            <li class="team-item">
               <img src="./img/img-nk-1.jpg" alt="img-nk-1" width="260"/>
-              <h3 class="our-team">Игорь Демьяненко</h3>
-              <p class="card-description team-position">Product Designer</p>
+              <div class="description-item">
+                <h3 class="our-team">Игорь Демьяненко</h3>
+                <p class="card-description team-position">Product Designer</p>
+              </div>
             </li>
-            <li>
+            <li class="team-item">
               <img src="./img/img-nk-2.jpg" alt="img-nk-2" width="260"/>
-              <h3 class="our-team">Ольга Репина</h3>
-              <p class="card-description team-position">Frontend Developer</p>
+              <div class="description-item">
+                <h3 class="our-team">Ольга Репина</h3>
+                <p class="card-description team-position">Frontend Developer</p>
+              </div>
             </li>
-            <li>
+            <li class="team-item">
               <img src="./img/img-nk-3.jpg" alt="img-nk-3" width="260"/>
-              <h3 class="our-team">Николай Тарасов</h3>
-              <p class="card-description team-position">Marketing</p>
+              <div class="description-item">
+                <h3 class="our-team">Николай Тарасов</h3>
+                <p class="card-description team-position">Marketing</p>
+              </div>
             </li>
-            <li>
+            <li class="team-item">
               <img src="./img/img-nk-4.jpg" alt="img-nk-4" width="260"/>
-              <h3 class="our-team">Михаил Ермаков</h3>
-              <p class="card-description team-position">UI Designer</p>
+              <div class="description-item">
+                <h3 class="our-team">Михаил Ермаков</h3>
+                <p class="card-description team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
+        </div>
       </section>
     </main>
     <!--FOOTER-->
